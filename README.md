@@ -35,5 +35,12 @@ Most aspects of the app are materialized in a way that they offer good usability
 fix is very important in this app, we are using a broader strategy for acquiring a more reliable GPS fix by using both GPS and Network and in case both fail after a predetermined
 timeout, then seek of the device's last location.
 
+* # To be done #
+- Various optimizations in the code and small reduction on the app's size.
+
+- Better authentication system.
+
+- Direct connection to the firebase also for the logs.
+
 More details to follow.
 
