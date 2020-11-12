@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    android:orientation="vertical"
+    tools:context=".EarthquakeList">
+
+    <TextView
+        android:id="@+id/earthlist1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Earthquake Senses Logs:"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView98"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/earthlist2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quick Tip: You can tap on each timestamp to see further details about each earthquake event."
+        android:textColor="#303030"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="match_parent"
+        android:layout_height="49dp" />
+
+    <ListView
+        android:id="@+id/listviewEarthquakes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
