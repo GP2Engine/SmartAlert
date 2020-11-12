@@ -20,6 +20,10 @@ If a user observes a fire then he can quickly report it by using the Fire Report
 Gallery or from a straight Camera snapshot. If done, then an SMS is sent (to a preset contact) and the event is logged both in SQLite and Firebase and the picture is also uploaded
 to the Firebase Storage.
 
+* # View All Logs #
+The user can view any kind of events logged (fall detections, fire reports, earthquake detections) at any time by selecting the appropriate buttons from the main menu. All logs
+are available to see by their timestamp and after we tap on each timestamp we can see in depth details about each log.
+
 * # Languages #
 The whole app's UI (excluding only the TTS language version for compatibility purposes) is offered in 3 languages: English, Greek and Dutch. Dutch translation could be improved.
 
