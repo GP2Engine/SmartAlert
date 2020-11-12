@@ -1,6 +1,6 @@
 # SmartAlert #
 
-SmartAlert is an Android application designed to be helpful and provide alerts to dangerous situations, such as User Falling Down, Earthquakes and Fire Reports.
+SmartAlert is an Android application, written in Java, designed to be helpful and provide alerts to dangerous situations, such as User Falling Down, Earthquakes and Fire Reports.
 
 * # Fall Detection #
 In the main menu and when the device isn't charging, SmartAlert can detect possible falls by using data from the device's accelerometer. If it detects a fall then it gets in a
